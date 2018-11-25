@@ -4008,7 +4008,7 @@ react-is@^16.6.1:
   resolved "https://nexus.altarix.ru/repository/marm3-npm/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
 
 "react-native-doc-scanner@file:../../libs/react-native-doc-scanner":
-  version "0.0.2"
+  version "0.0.4"
 
 react-native@0.57.5:
   version "0.57.5"
