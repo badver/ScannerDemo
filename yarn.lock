@@ -4007,9 +4007,8 @@ react-is@^16.6.1:
   version "16.6.3"
   resolved "https://nexus.altarix.ru/repository/marm3-npm/react-is/-/react-is-16.6.3.tgz#d2d7462fcfcbe6ec0da56ad69047e47e56e7eac0"
 
-"react-native-android-scanner@git+https://git@github.com/aseemnishad/react-native-android-scanner.git":
-  version "1.0.0"
-  resolved "git+https://git@github.com/aseemnishad/react-native-android-scanner.git#723b01aeecc59074e824b62b1754feb2b51d89b6"
+"react-native-doc-scanner@file:../../libs/react-native-doc-scanner":
+  version "0.0.2"
 
 react-native@0.57.5:
   version "0.57.5"
@@ -5147,8 +5146,8 @@ y18n@^3.2.1:
   resolved "https://nexus.altarix.ru/repository/marm3-npm/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 
 yallist@^3.0.0, yallist@^3.0.2:
-  version "3.0.2"
-  resolved "https://nexus.altarix.ru/repository/marm3-npm/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
+  version "3.0.3"
+  resolved "https://nexus.altarix.ru/repository/marm3-npm/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
 yargs-parser@^7.0.0:
   version "7.0.0"

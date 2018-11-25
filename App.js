@@ -1,17 +1,12 @@
 import React, {Component} from 'react'
-import {DeviceEventEmitter, Image, StyleSheet, Text, ToastAndroid, TouchableOpacity, View} from 'react-native'
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native'
 
-import RNAndroidScanner from 'react-native-android-scanner'
+import RNDocScanner from 'react-native-doc-scanner'
 
 export default class App extends Component {
 
   state = {
     imageUri: null
-  }
-
-  componentDidMount = () => {
-    ToastAndroid.show('Listening for SCANNED_RESULT', ToastAndroid.SHORT)
-    DeviceEventEmitter.addListener(RNAndroidScanner.SCANNED_RESULT, this.onResult)
   }
 
   onScan = (preference = 2) => {
@@ -21,12 +16,7 @@ export default class App extends Component {
     // OPEN_CAMERA = 4;
     // OPEN_MEDIA = 5;
 
-    RNAndroidScanner.startScan(preference)
-  }
-
-  onResult = (image) => {
-    ToastAndroid.show('onResult completion callback:', ToastAndroid.SHORT)
-    this.setState({imageUri: image.uri})
+    RNDocScanner.startScan(preference).then(uri => this.setState({imageUri: uri}))
   }
 
   render() {

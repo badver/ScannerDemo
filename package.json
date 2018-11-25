@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "16.6.1",
     "react-native": "0.57.5",
-    "react-native-android-scanner": "git+https://git@github.com/aseemnishad/react-native-android-scanner.git"
+    "react-native-doc-scanner": "file:/Users/wish/projects/libs/react-native-doc-scanner"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
