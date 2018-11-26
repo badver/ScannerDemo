@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native'
 import Scanner from 'react-native-doc-scanner'
 
+console.log('IOS')
+
 export default class App extends Component {
   constructor(props) {
     super(props)
